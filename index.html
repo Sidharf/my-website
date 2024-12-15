@@ -1,65 +1,46 @@
-Welcome. My name is Sidharth Sirdeshmukh and I'm a Research Associate at Dewpoint Therapeutics in Boston, MA.
-For a window into my thoughts from a year ago, please visit: thelab.substack.com. I hope to share more refined thoughts about cell biology and drug discovery platforms on this site.
-
-├── index.html
-└── styles.css
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>My Awesome GitHub Pages Website</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <h1>Welcome to My GitHub Pages Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <p>This is a simple static website hosted on GitHub Pages!</p>
-      <a href="https://github.com" target="_blank">Visit GitHub</a>
-    </main>
+
+    <section id="home">
+        <div class="content">
+            <h1>Welcome to My GitHub Pages Website!</h1>
+            <p>This is a simple static website hosted with GitHub Pages. It's easy to set up and customize!</p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer who loves open-source projects. GitHub Pages is an awesome way to showcase my work!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email at <a href="mailto:example@example.com">example@example.com</a>.</p>
+        </div>
+    </section>
+
     <footer>
-      <p>&copy; 2024 My GitHub Pages Site</p>
+        <p>&copy; 2024 My GitHub Pages Website</p>
     </footer>
-  </body>
+</body>
 </html>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-main {
-  padding: 20px;
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 10px;
-}
-
-a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-git clone https://github.com/username/my-website.git
-cd my-website
-git add .
-git commit -m "Add website files"
-git push origin main
