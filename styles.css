@@ -13,6 +13,31 @@ body {
     line-height: 1.6;
 }
 
+/* Grey box styles */
+.grey-box {
+    background-color: #d3d3d3; /* Light grey background */
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+    text-align: justify; /* Make the text align like a paragraph */
+    line-height: 1.8; /* Slightly increase line height for readability */
+}
+
+.grey-box h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.grey-box p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
 /* Header and navigation */
 header {
     background-color: #333;
